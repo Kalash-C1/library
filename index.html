@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Library</title>
+</head>
+<body>
+    <table id="dashboard">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Author</th>
+                <th>Pages</th>
+                <th>Delete</th>
+                <th>Read Status</th>
+                <th>Have u read the Book</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <dialog>
+        <form id="myForm">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+            
+            <label for="author">Author</label>
+            <input id="author" name="author" type="text" required>
+            
+            <label for="pages">Pages</label>
+            <input id="pages" name="pages" type="number" required>
+            
+            <button type="submit" class="submit">Submit</button>
+        </form>
+        <button class="close">Close</button>
+    </dialog>
+    <button class="newBook">Add a Book</button>
+</body>
+</html>
